@@ -39,7 +39,7 @@ Follow these steps to set up and run the trading bot.
 2.  **Clone the Repository**
     Clone this project to your local machine.
     ```bash
-    git clone [https://github.com/your-username/News-Driven-AI-Trader.git](https://github.com/your-username/News-Driven-AI-Trader.git)
+    git clone https://github.com/bok3948/Real-Time-News-Driven-AI-Trader.git
     cd News-Driven-AI-Trader
     ```
 
