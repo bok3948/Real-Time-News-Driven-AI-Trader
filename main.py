@@ -85,6 +85,8 @@ async def main(args: argparse.Namespace) -> None:
         while new_news:
             latest_article = new_news.popleft()
             title = latest_article.title
+            print()
+            print("-" * 50)
             print(f"New news detected: {title}")
 
             ai_predictor = AIPredictor(
@@ -130,11 +132,15 @@ async def main(args: argparse.Namespace) -> None:
                         order_id=order_id,
                         delay_seconds=60
                     ))
-                    print(f"Scheduled cancellation of order {order_id} in 60 seconds.")
-                    asyncio.create_task(alpaca_trader.schedule_sell(order_id=order_id, delay_seconds=300))
+                    #print(f"Scheduled cancellation of order {order_id} in 60 seconds.")
+                    #asyncio.create_task(alpaca_trader.schedule_sell(order_id=order_id, delay_seconds=300))
                 else:
                     print(f"Buy order failed: {buy_order_response}")
-    
+
+
+
+            print("-" * 50)
+            print()
             print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] Checking for latest news...")
             await asyncio.sleep(10)
 
