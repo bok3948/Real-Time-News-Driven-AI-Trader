@@ -3,6 +3,9 @@
 Real-time AI-driven stock trading bot. This Python project automatically scrapes live financial news, leverages Gemini AI for sentiment-based stock prediction, and executes trades via the Alpaca API. It's designed for rapid, event-driven trading, reacting instantly to market-moving news.
 
 ***
+## 🎬 Demo 
+
+*![Chatbot Demo GIF](./demo.gif)*
 
 ## Features
 
