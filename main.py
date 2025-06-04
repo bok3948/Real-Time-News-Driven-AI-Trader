@@ -26,7 +26,10 @@ def get_args_parser() -> argparse.ArgumentParser:
     parser.add_argument('--model_name', default='gemini-2.0-flash-exp', type=str,)
     #"gemini-1.5-flash-latest,     #gemini-2.5-pro-preview-05-06"
     parser.add_argument('--news_src', nargs='+', default=['yahoo_finance'],
-                        help='List of news sources to use (e.g., yahoo_finance investing)')
+                        help='List of news sources to use ' \
+                        'available options: ' \
+                        'yahoo_finance, (https://finance.yahoo.com/topic/latest-news/)' 
+                        )
     return parser
 
 
