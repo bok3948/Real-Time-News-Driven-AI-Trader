@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="http://googleusercontent.com/image_generation_content/0" alt="News-Driven-AI-Trader Logo" width="200"/>
+  <img src="./logo.png">
 </div>
 
 <h1 align="center">News-Driven-AI-Trader</h1>
