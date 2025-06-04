@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="./logo.png" alt="Logo" width="40"/>
+  <img src="./logo.png" alt="Logo" width="60"/>
   News-Driven-AI-Trader
 </h1>
 
