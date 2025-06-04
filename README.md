@@ -16,7 +16,7 @@ Real-time AI-driven stock trading bot. This Python project automatically scrapes
 ## How It Works
 
 1.  **News Scraping**: The bot continuously monitors and scrapes the latest articles from financial news websites.
-2.  **Sentiment Analysis**: Each relevant news article is sent to the Gemini AI API. The AI analyzes the content and returns a sentiment score and a trading decision (e.g., `BUY`, `SELL`, `HOLD`).
+2.  **Sentiment Analysis**: Each relevant news article is sent to the Gemini AI API. The AI analyzes the content and returns a sentiment score and a trading decision (Tiket to buy and wheather buy or not).
 3.  **Trade Execution**: Based on the AI's decision, the bot places a corresponding order through the Alpaca trading API.
 
 ***
