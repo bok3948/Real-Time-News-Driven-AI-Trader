@@ -1,8 +1,29 @@
-# News-Driven-AI-Trader
+<div align="center">
+  <img src="http://googleusercontent.com/image_generation_content/0" alt="News-Driven-AI-Trader Logo" width="200"/>
+</div>
 
-Real-time AI-driven stock trading bot. This Python project automatically scrapes live financial news, leverages Gemini AI for sentiment-based stock prediction, and executes trades via the Alpaca API. It's designed for rapid, event-driven trading, reacting instantly to market-moving news.
+<h1 align="center">News-Driven-AI-Trader</h1>
 
+<div align="center">
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Badge">
+  </a>
+  <a href="https://ai.google.dev/gemini-api">
+    <img src="https://img.shields.io/badge/Google%20Gemini-886FBF?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini Badge">
+  </a>
+  <a href="https://alpaca.markets/">
+    <img src="https://img.shields.io/badge/Alpaca-00B45D?style=for-the-badge&logo=alpaca-markets&logoColor=white" alt="Alpaca Badge">
+  </a>
+  <a href="https://github.com/bok3948/Real-Time-News-Driven-AI-Trader/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/bok3948/Real-Time-News-Driven-AI-Trader?style=for-the-badge" alt="License Badge">
+  </a>
+</div>
 
+<p align="center">
+  Real-time AI-driven stock trading bot. This Python project automatically scrapes live financial news, leverages Gemini AI for sentiment-based stock prediction, and executes trades via the Alpaca API. It's designed for rapid, event-driven trading, reacting instantly to market-moving news.
+</p>
+
+***
 
 ## Features
 
@@ -16,7 +37,7 @@ Real-time AI-driven stock trading bot. This Python project automatically scrapes
 ## How It Works
 
 1.  **News Scraping**: The bot continuously monitors and scrapes the latest articles from financial news websites.
-2.  **Sentiment Analysis**: Each relevant news article is sent to the Gemini AI API. The AI analyzes the content and returns a sentiment score and a trading decision (Tiket to buy and whether buy or not).
+2.  **Sentiment Analysis**: Each relevant news article is sent to the Gemini AI API. The AI analyzes the content and returns a sentiment score and a trading decision (Ticker to buy and whether to buy or not).
 3.  **Trade Execution**: Based on the AI's decision, the bot places a corresponding order through the Alpaca trading API.
 
 ***
@@ -37,9 +58,8 @@ Follow these steps to set up and run the trading bot.
     * **Google AI**: Get your Gemini API key from the [Google AI Studio](https://ai.google.dev/gemini-api/docs/api-key).
 
 2.  **Clone the Repository**
-    Clone this project to your local machine.
     ```bash
-    git clone https://github.com/bok3948/Real-Time-News-Driven-AI-Trader.git
+    git clone [https://github.com/bok3948/Real-Time-News-Driven-AI-Trader.git](https://github.com/bok3948/Real-Time-News-Driven-AI-Trader.git)
     cd News-Driven-AI-Trader
     ```
 
