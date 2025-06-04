@@ -27,7 +27,7 @@
 ## Features
 
 * **Real-Time News Analysis**: Automatically scrapes financial news from top sources.
-* **AI-Powered Predictions**: Uses Google's Gemini AI to analyze news sentiment and predict stock price movements (buy, sell, or hold).
+* **AI-Powered Predictions**: Uses Google's Gemini AI to analyze news sentiment and predict stock price movements (Buy or Not).
 * **Automated Trading**: Seamlessly executes trades through the Alpaca API without manual intervention.
 * **Event-Driven**: Built to react quickly to breaking news that can impact the market.
 
