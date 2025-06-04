@@ -1,8 +1,7 @@
-<div align="center">
-  <img src="./logo.png">
-</div>
-
-<h1 align="center">News-Driven-AI-Trader</h1>
+<h1 align="center">
+  <img src="./logo.png" alt="Logo" width="40"/>
+  News-Driven-AI-Trader
+</h1>
 
 <div align="center">
   <a href="https://www.python.org/">
