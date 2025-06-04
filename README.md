@@ -71,4 +71,4 @@ Follow these steps to set up and run the trading bot.
 
 ## Disclaimer
 
-⚠️ **Trading financial instruments involves significant risk. This project is for educational and experimental purposes only. Use it at your own risk. The creators are not responsible for any financial losses you may incur.**
+⚠️ **Trading financial instruments involves significant risk. This project is for educational and experimental purposes only. Use it at your own risk. The creators are not responsible for any financial losses you may incur. Please use Paper Trade.**
