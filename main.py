@@ -72,6 +72,8 @@ async def main(args: argparse.Namespace) -> None:
             except Exception as e:
                 print(f"[ERROR] Error fetching news from {crawler.__name__}: {e}")
                 continue
+            if not news:
+                continue
             if news.title not in title_cache:
                 title_cache.append(news.title)
                 new_news.append(news)  
@@ -94,9 +96,8 @@ async def main(args: argparse.Namespace) -> None:
                 api_key=GOOGLE_API_KEY, 
             )
 
-            article_dict = latest_article.to_dict() 
-            prediction = ai_predictor.inference(news=article_dict)
-
+            prediction = ai_predictor.inference(news=latest_article.to_str())
+            prediction["messages"][-1].pretty_print()
             predicted_ticker = prediction.get('ticker') if prediction else "N/A"
             predicted_buy_level = prediction.get('buy_level', 0) if prediction else 0
             

@@ -54,3 +54,12 @@ class Article:
             "content": self.content,
             "source": self.source
         }
+    
+    def to_str(self) -> str:
+        """
+        Convert the Article instance to a string.
+        
+        Returns:
+            A string representation of the Article.
+        """
+        return f"Title: {self.title}\nURL: {self.url}\nDate: {self.date}\nContent: {self.content}\nSource: {self.source}"

@@ -73,7 +73,7 @@ def crawl_yahoo_finance_news() -> Article:
         response.raise_for_status()
     except requests.exceptions.RequestException as e:
         print(f"Error fetching news list from {url}: {e}")
-        return news_list # Return empty list on failure
+        return None # Return empty list on failure
 
     soup = BeautifulSoup(response.content, 'html.parser')
     
@@ -169,5 +169,4 @@ def crawl_yahoo_finance_news() -> Article:
             source="Yahoo Finance"
         )
     else:
-        return Article(source="Yahoo Finance")
-
+        return None
